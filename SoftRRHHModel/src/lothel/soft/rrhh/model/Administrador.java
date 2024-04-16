@@ -10,5 +10,5 @@ package lothel.soft.rrhh.model;
  * @author efeproceres
  */
 public class Administrador {
-
+    
 }

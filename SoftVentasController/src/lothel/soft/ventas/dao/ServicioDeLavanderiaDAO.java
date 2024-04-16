@@ -4,10 +4,16 @@
  */
 package lothel.soft.ventas.dao;
 
+import java.util.ArrayList;
+import lothel.soft.ventas.model.ServicioDeLavanderia;
+
 /**
  *
  * @author efeproceres
  */
 public interface ServicioDeLavanderiaDAO {
-    
+    public int insertar(ServicioDeLavanderia servicio);
+    public int modificar(ServicioDeLavanderia servicio);
+    public int eliminar(int idServicio);
+    public ArrayList<ServicioDeLavanderia> listarServiciosLavanderia();
 }
